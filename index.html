@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="main.css">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">SKATE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Products
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Pants</a>
+              <a class="dropdown-item" href="#">Shirts</a>
+              <a class="dropdown-item" href="#">Apparael</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="sectionLight">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Welcome to My Site</h1>
+              <p class="lead">Ejemplo de tienda de skate.. si soy aburrido vale..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div><!--cuando esten en modo movil esta col colpasa-->
+        <div class="col-sm-12 col-md-6"><!--col-12 para mobiles col-6 para desktop-->
+          <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!--d-block: display block-->
+                <img class="d-block w-100" src="assets/board.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/tipsolahraga.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Skate for life!</h5>
+                  <p>Showme some tricks</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/longboard.jpg" alt="Third slide">
+              </div>
+            </div>
+            <!--previous and next buttons, id:#idDelCarousel-->
+            <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <!--section 2-->
+    <div class="sectionDark">
+      <div class="row">
+        <!--columna de espacio 1 y corrida 2 espacios, y 12 para pantallas pequeñas-->
+        <div class="col-sm-12 col-md-1 offset-md-2">
+          <!--img-flud; para que la imagen sea responsiva-->
+          <img class="img-fluid" src="assets/prodigy.png">
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-sm-12">
+              <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                using 'Content here, content here', making it look like readable English. Many desktop publishing packages
+                and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                accident, sometimes on purpose (injected humour and the like).
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-9">
+              <p>
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                using 'Content here, content here', making it look like readable English. Many desktop publishing packages
+                and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will
+                uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+                accident, sometimes on purpose (injected humour and the like).
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-3">
+              <img class="img-fluid" src="assets/KFS.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+        <!--toma el resto del espacio-->
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="coolStuffWrapper">
+            <!--data-toggle=elemento; data-target=id de donde se va a desplegar -->
+            <button type="button" class="btn btn-lg coolStuffBtn" data-toggle="modal" data-target="#coolStuffModal">
+              Get Cool Stuff!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sectionLight">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row" style="padding: 2rem">
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid imgCenter" src="assets/kickflip.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--data-toggle a un modal data-targer apuntando a una clase-->
+                  <button type="button" class="btn btn-danger btn-lg btnCenter"
+                  data-toggle="modal" data-target=".kf-modal-lg">KickFlip</button> 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid imgCenter" src="assets/360flip.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!--data-toggle a un modal data-targer apuntando a una clase-->
+                  <button type="button" class="btn btn-danger btn-lg btnCenter" data-toggle="modal" data-target="#second-modal">360</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <img class="img-fluid imgCenter" src="assets/bscrook.jpg">
+              <div class="row">
+                <div class="col-sm-12">
+                  <button type="button" class="btn btn-danger btn-lg btnCenter"
+                  data-toggle="modal" data-target=".bscroock-modal-sm">BS Croock</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer bg-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3">
+            <img class="img-fluid footerImg" src="assets/KFS_LIGHT.png">
+          </div>
+          <div class="col-sm-12 col-lg-9 socialWrapper">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook-square fa-3x"></i>
+            </a>
+            <a href="https://plus.google.com/discover" target="_blank">
+              <i class="fab fa-google-plus-square fa-3x"></i>
+            </a>
+            <i class="fab fa-instagram fa-3x"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Modal -->
+
+    <!--Cool stuff modal-->
+    <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Get Exclusive Content</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <!--boton que cierra el modal-->
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body"><!--cuerpo del modal-->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <img class="img-fluid" src="assets/KFS_modal.png">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="modalFormWrapper">
+                    <form>
+                      <div class="form-group">
+                        <label for="forName">What's your name?</label>
+                        <input type="text" class="form-control" id="forName" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="forEmail">Where we want to send you cool stuff</label>
+                        <input type="text" class="form-control" id="forEmail" placeholder="Email">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--KFmodal kf-modal-lg boostrap va a entender que lg es grande-->
+    <div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+          </div>
+          <p>KickFlips are easy. Pop, flick, catch, land.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!--360 flip md medium por alguna razon me toco usar id-->
+    <div class="modal fade" id="second-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+          </div>
+          <p>360 are easy. pop, scissor kik, catch, land.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!--Bs-croock sm small-->
+    <div class="modal fade bscroock-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+          </div>
+          <p>Backside Crooks are sick</p>
+        </div>
+      </div>
+    </div>
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
